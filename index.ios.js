@@ -31,7 +31,7 @@ export default class ios_share extends Component {
     let path = mainpath + '/test.txt';
     console.log(path);
 
-      // sørger for at side for deling popper opp, url til filen som skal deles med appen er også med
+      // this is the shit!
    ActionSheetIOS.showShareActionSheetWithOptions({
      url: '/data/user/0/com.ios_share/files/test.txt'
    },
